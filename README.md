@@ -32,12 +32,9 @@
 
 ### Após essa implementação responda:
 
-- Na classe Corpo_Humano inclua a linha c1.massa = "2"; logo depois de instanciar o objeto c1. Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
-  c1.massa não estava preparado para receber um valor do tipo string, devido os parenteses.
-- Na classe Corpo_Humano altere a linha private float Massa para public float Massa; Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
-  Agora é possível alterar a massa sem precisar necessariamente de um método.
-- Na classe Corpo_Humano altere a linha public setVolume (float volume) para private setVolume (float volume).Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
-  Resulta em erro na compilação devido ao método setVolume não ser acessível fora da classe.
+- Na classe Corpo_Humano inclua a linha c1.massa = "2"; logo depois de instanciar o objeto c1. Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu? | c1.massa não estava preparado para receber um valor do tipo string, devido os parenteses.
+- Na classe Corpo_Humano altere a linha private float Massa para public float Massa; Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu? | Agora é possível alterar a massa sem precisar necessariamente de um método.
+- Na classe Corpo_Humano altere a linha public setVolume (float volume) para private setVolume (float volume).Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu? | Resulta em erro na compilação devido ao método setVolume não ser acessível fora da classe.
 
 
 <b>Colocar essa informação no Readme do Git ou Em comentários de código na classe main </b>
